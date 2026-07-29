@@ -5,18 +5,15 @@
 **Vertex Digital – Responsive Business Website**
 
 ### Project Overview
-
 Vertex Digital is a responsive business website developed using HTML, CSS, and JavaScript. The website represents a digital agency and provides information about the company, its services, and contact details. It is designed to be user-friendly and fully responsive across different devices.
 
 ### Objectives
-
 * Create a modern and responsive business website.
-* Use semantic HTML5 for proper structure.
-* Design an attractive interface using CSS3.
+* Use semantic HTML for proper structure.
+* Design an attractive interface using CSS.
 * Implement client-side form validation with JavaScript.
 
 ### Technologies Used
-
 * HTML
 * CSS
 * JavaScript
@@ -24,7 +21,6 @@ Vertex Digital is a responsive business website developed using HTML, CSS, and J
 * Google Fonts
 
 ### Features
-
 * Responsive navigation bar
 * Home, About, Services, and Contact sections
 * Contact form with validation
