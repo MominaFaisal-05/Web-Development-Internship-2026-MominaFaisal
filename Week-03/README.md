@@ -17,8 +17,8 @@ Vertex Digital is a responsive business website developed using HTML, CSS, and J
 
 ### Technologies Used
 
-* HTML5
-* CSS3
+* HTML
+* CSS
 * JavaScript
 * Font Awesome
 * Google Fonts
