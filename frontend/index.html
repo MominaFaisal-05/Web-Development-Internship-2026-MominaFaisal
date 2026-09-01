@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SkillForge | Digital Skills Platform</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <main class="auth-shell">
+            <!-- LEFT BRAND SECTION -->
+            <section class="brand-panel">
+                <div class="brand-mark">SF</div>
+                <p class="eyebrow">DIGITAL SKILLS PLATFORM</p>
+                <h1>
+                    Learn. Build.
+                    <br>
+                    <span>Grow.</span>
+                </h1>
+                <p class="brand-copy">
+                    A secure authentication experience
+                    designed for students and instructors.
+                </p>
+                <div class="feature-list">
+                    <div>
+                        <span>01</span>
+                        Secure password storage
+                    </div>
+                    <div>
+                        <span>02</span>
+                        Role-based user profiles
+                    </div>
+                    <div>
+                        <span>03</span>
+                        Protected dashboard access
+                    </div>
+                </div>
+            </section>
+            
+            <!-- RIGHT AUTH SECTION -->
+            <section class="auth-panel">
+                <div class="auth-card">
+                    <!-- MOBILE LOGO -->
+                    <div class="mobile-logo">
+                        <div class="brand-mark small">SF</div>
+                        <strong>SkillForge</strong>
+                    </div>
+                    
+                    <!-- LOGIN VIEW -->
+                    <div id="loginView" class="auth-view">
+                        <p class="eyebrow">WELCOME BACK</p>
+                        <h2>Sign in</h2>
+                        <p class="subtitle">Access your learning dashboard.</p>
+                        <form id="loginForm" novalidate>
+                            <label for="loginEmail">Email</label>
+                            <input id="loginEmail" type="email" placeholder="you@example.com" autocomplete="email">
+                            
+                            <label for="loginPassword">Password</label>
+                            <div class="password-wrap">
+                                <input id="loginPassword" type="password" placeholder="Enter your password"
+                                autocomplete="current-password">
+                                <button type="button" class="show-password" data-target="loginPassword">
+                                    Show
+                                </button>
+                            </div>
+                            <div id="loginMessage" class="message" role="alert"></div>
+                            <button class="primary-btn" type="submit">Sign in<span>→</span></button>
+                        </form>
+                        <p class="switch-text">
+                            New to SkillForge?
+                            <button type="button" class="text-btn" id="showSignup">
+                                Create an account
+                            </button>
+                        </p>
+                    </div>
+                    <!-- SIGNUP VIEW -->
+                    <div id="signupView" class="auth-view hidden">
+                        <p class="eyebrow">GET STARTED</p>
+                        <h2>Create account</h2>
+                        <p class="subtitle">Join the digital learning community.</p>
+                        
+                        <form id="signupForm" novalidate>
+                            <label for="signupName">Full name</label>
+                            <input id="signupName" type="text" placeholder="Your full name" autocomplete="name">
+                            <label for="signupEmail">Email</label>
+                            <input id="signupEmail" type="email" placeholder="you@example.com" autocomplete="email">
+                            
+                            <label for="signupPassword">Password</label>
+                            <div class="password-wrap">
+                                <input id="signupPassword" type="password" placeholder="Minimum 8 characters"
+                                autocomplete="new-password">
+                                <button type="button" class="show-password" data-target="signupPassword">
+                                    Show
+                                </button>
+                            </div>
+                            <!-- PASSWORD RULES -->
+                            <div class="password-rules">
+                                <span id="lengthRule">
+                                    ✓ 8+ characters
+                                </span>
+                                <span id="letterRule">
+                                    ✓ A letter
+                                </span>
+                                <span id="numberRule">
+                                    ✓ A number
+                                </span>
+                            </div>
+                            <label for="signupRole">
+                                Role
+                            </label>
+                            <select id="signupRole">
+                                <option value="">
+                                    Select your role
+                                </option>
+                                <option value="Student">
+                                    Student
+                                </option>
+                                <option value="Instructor">
+                                    Instructor
+                                </option>
+                            </select>
+                            <div id="signupMessage" class="message" role="alert"></div>
+                            <button class="primary-btn" type="submit">
+                                Create account<span>→</span>
+                            </button>
+                        </form>
+                        <p class="switch-text">
+                            Already have an account?
+                            <button type="button" class="text-btn" id="showLogin">
+                                Sign in
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="js/auth.js"></script>
+    </body>
+</html>
